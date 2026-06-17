@@ -1,1 +1,298 @@
 # web-project-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduGrowth Pricing</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+<nav class="navbar">
+
+
+<h2>EduGrowth</h2>
+
+
+<ul>
+<li><a href="courses.html">Courses</a></li>
+<li><a class="active" href="pricing.html">Pricing</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+
+
+<a href="#" class="btn open-account-modal" data-plan="General">
+Get Started
+</a>
+
+
+</nav>
+</header>
+
+
+<section class="pricing-hero">
+
+
+<span class="tag">FLEXIBLE PLANS</span>
+
+
+<h1>Simple, Transparent Pricing</h1>
+
+
+<p>
+Choose a plan that matches your learning goals.
+</p>
+
+
+</section>
+
+
+<section class="pricing-cards">
+
+
+<div class="pricing-card">
+
+
+<h2>Starter</h2>
+
+
+<p>Perfect for beginners.</p>
+
+
+<h3>$0<span>/month</span></h3>
+
+
+<ul>
+<li>✔ Basic Course Access</li>
+<li>✔ Community Support</li>
+<li>✔ Learning Resources</li>
+</ul>
+
+
+<button
+class="btn open-account-modal"
+data-plan="Starter">
+Get Started
+</button>
+
+
+</div>
+
+
+<div class="pricing-card popular">
+
+
+<div class="badge">
+MOST POPULAR
+</div>
+
+
+<h2>Pro</h2>
+
+
+<p>For serious learners.</p>
+
+
+<h3>$29<span>/month</span></h3>
+
+
+<ul>
+<li>✔ Unlimited Courses</li>
+<li>✔ Certificates</li>
+<li>✔ Community Access</li>
+<li>✔ Offline Learning</li>
+</ul>
+
+
+<button
+class="btn open-account-modal"
+data-plan="Pro">
+Choose Pro
+</button>
+
+
+</div>
+
+
+<div class="pricing-card">
+
+
+<h2>Elite</h2>
+
+
+<p>Premium learning experience.</p>
+
+
+<h3>$99<span>/month</span></h3>
+
+
+<ul>
+<li>✔ Everything in Pro</li>
+<li>✔ Personal Mentor</li>
+<li>✔ Career Coaching</li>
+<li>✔ Portfolio Review</li>
+</ul>
+
+
+<button
+class="btn open-account-modal"
+data-plan="Elite">
+Go Elite
+</button>
+
+
+</div>
+
+
+</section>
+
+
+<section class="faq">
+
+
+<h2>Frequently Asked Questions</h2>
+
+
+<div class="faq-item">
+
+
+<button class="faq-btn">
+Can I change my plan later?
+</button>
+
+
+<div class="faq-content">
+<p>
+Yes. You can upgrade or downgrade anytime.
+</p>
+</div>
+
+
+</div>
+
+
+<div class="faq-item">
+
+
+<button class="faq-btn">
+Do you offer certificates?
+</button>
+
+
+<div class="faq-content">
+<p>
+Yes. Certificates are included in Pro and Elite plans.
+</p>
+</div>
+
+
+</div>
+
+
+</section>
+
+
+<footer>
+
+
+<div class="footer-grid">
+
+
+<div>
+<h3>EduGrowth</h3>
+<p>Empowering learners worldwide.</p>
+</div>
+
+
+<div>
+<h4>Academy</h4>
+<a href="courses.html">Courses</a>
+<a href="pricing.html">Pricing</a>
+</div>
+
+
+<div>
+<h4>Company</h4>
+<a href="about.html">About Us</a>
+<a href="#">Careers</a>
+</div>
+
+
+</div>
+
+
+<p class="copyright">
+© 2024 EduGrowth Academy
+</p>
+
+
+</footer>
+
+
+<!-- ACCOUNT REGISTRATION MODAL -->
+
+
+<div id="accountModal" class="modal">
+
+
+<div class="modal-content">
+
+
+<span id="closeModal">&times;</span>
+
+
+<h2 id="selectedPlan">
+Create Account
+</h2>
+
+
+<form id="accountForm">
+
+
+<input
+type="text"
+placeholder="Full Name"
+required>
+
+
+<input
+type="email"
+placeholder="Email Address"
+required>
+
+
+<input
+type="tel"
+placeholder="Phone Number"
+required>
+
+
+<input
+type="password"
+placeholder="Create Password"
+required>
+
+
+<button type="submit" class="btn">
+Create Account
+</button>
+
+
+</form>
+
+
+</div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
+pricing⁩
