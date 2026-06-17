@@ -1,1 +1,153 @@
 # web-project-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+<nav class="navbar">
+<h2>EduGrowth</h2>
+
+
+<ul>
+<li><a href="index.html">Courses</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a class="active" href="about.html">About</a></li>
+</ul>
+
+
+<a href="#" class="btn">Get Started</a>
+</nav>
+</header>
+
+
+<section class="about-hero">
+
+
+<span>ESTABLISHED 2018</span>
+
+
+<h1>
+Cultivating the
+<span>Future of Learning</span>
+Through Guided Growth.
+</h1>
+
+
+<p>
+Bridging traditional education and
+modern workforce demands.
+</p>
+
+
+</section>
+
+
+<section class="mission">
+
+
+<div class="mission-img">
+<img src="C:\Users\USER\Pictures\IMG_4766.JPG">
+</div>
+
+
+<div class="mission-content">
+
+
+<h2>Our Mission</h2>
+
+
+<div class="mission-card">
+<h3>Global Empowerment</h3>
+<p>Making quality education accessible.</p>
+</div>
+
+
+<div class="mission-card">
+<h3>Adaptive Growth</h3>
+<p>Personalized learning pathways.</p>
+</div>
+
+
+<div class="mission-card">
+<h3>Institutional Quality</h3>
+<p>Maintaining educational rigor.</p>
+</div>
+
+
+</div>
+
+
+</section>
+
+
+<section class="team">
+
+
+<h2>Meet The Team</h2>
+
+
+<div class="team-grid">
+
+
+<div class="member">
+<img src="C:\Users\USER\Downloads\IMG_4769.JPG">
+<h4>Julian Reed</h4>
+<p>Founder & CEO</p>
+</div>
+
+
+<div class="member">
+<img src="C:\Users\USER\Downloads\IMG_4768.JPG">
+<h4>Sarah Jenkins</h4>
+<p>Chief Technologist</p>
+</div>
+
+
+<div class="member">
+<img src="C:\Users\USER\Downloads\IMG_4770.JPG">
+<h4>Marcus Thorne</h4>
+<p>Head of Curriculum</p>
+</div>
+
+
+<div class="member">
+<img src="C:\Users\USER\Downloads\IMG_4771.JPG">
+<h4>Elena Vasquez</h4>
+<p>Student Success Lead</p>
+</div>
+
+
+</div>
+
+
+</section>
+
+
+<section class="cta">
+<h2>Join Our Community</h2>
+<button class="btn">Enroll Now</button>
+</section>
+
+
+<footer>
+<div class="footer-grid">
+<div>
+<h3>EduGrowth</h3>
+<p>Empowering learners worldwide.</p>
+</div>
+</div>
+</footer>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
