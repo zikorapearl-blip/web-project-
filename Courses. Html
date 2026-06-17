@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduGrowth Courses</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+<nav class="navbar">
+
+
+<h2>EduGrowth</h2>
+
+
+<ul>
+<li><a class="active" href="courses.html">Courses</a></li>
+<li><a href="pricing.html">Pricing</a></li>
+<li><a href="about.html">About</a></li>
+</ul>
+
+
+<a href="#" class="btn">Get Started</a>
+
+
+</nav>
+</header>
+
+
+<section class="courses-hero">
+
+
+<span class="tag">EXPLORE OUR COURSES</span>
+
+
+<h1>Learn Skills That Shape The Future</h1>
+
+
+<p>
+Choose from expert-led courses designed to help
+you grow professionally and personally.
+</p>
+
+
+</section>
+
+
+<section class="course-catalog">
+
+
+<div class="course-card">
+
+
+<img src="C:\Users\USER\Downloads\IMG_4761.JPG" alt="Data Analytics">
+
+
+<div class="course-info">
+
+
+<span class="course-category">
+Data Science
+</span>
+
+
+<h3>Advanced Data Analytics & ML</h3>
+
+
+<p>
+Master machine learning, Python,
+and data visualization.
+</p>
+
+
+<div class="course-footer">
+<span>$199</span>
+<button class="btn enroll-btn">
+Enroll Now
+</button>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<div class="course-card">
+
+
+<img src="C:\Users\USER\Downloads\IMG_4767.JPG" alt="Marketing">
+
+
+<div class="course-info">
+
+
+<span class="course-category">
+Marketing
+</span>
+
+
+<h3>Digital Strategy & Growth Hacking</h3>
+
+
+<p>
+Build growth systems and marketing funnels.
+</p>
+
+
+<div class="course-footer">
+<span>$149</span>
+<button class="btn enroll-btn">
+Enroll Now
+</button>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<div class="course-card">
+
+
+<img src="C:\Users\USER\Downloads\IMG_4764.JPG" alt="Leadership">
+
+
+<div class="course-info">
+
+
+<span class="course-category">
+Business
+</span>
+
+
+<h3>Executive Leadership & Management</h3>
+
+
+<p>
+Become an effective leader in modern organizations.
+</p>
+
+
+<div class="course-footer">
+<span>$299</span>
+<button class="btn enroll-btn">
+Enroll Now
+</button>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+<div class="course-card">
+
+
+<img src="C:\Users\USER\Downloads\IMG_4763.JPG" alt="Web Development">
+
+
+<div class="course-info">
+
+
+<span class="course-category">
+Technology
+</span>
+
+
+<h3>Full Stack Web Development</h3>
+
+
+<p>
+Learn HTML, CSS, JavaScript, Node.js and databases.
+</p>
+
+
+<div class="course-footer">
+<span>$179</span>
+<button class="btn enroll-btn">
+Enroll Now
+</button>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+<section class="cta">
+
+
+<h2>Ready To Start Learning?</h2>
+
+
+<p>
+Join thousands of learners building future-ready skills.
+</p>
+
+
+<button class="btn">
+Start Learning Today
+</button>
+
+
+</section>
+
+
+<footer>
+
+
+<div class="footer-grid">
+
+
+<div>
+<h3>EduGrowth</h3>
+<p>
+Empowering lifelong learners through quality education.
+</p>
+</div>
+
+
+<div>
+<h4>Academy</h4>
+<a href="courses.html">Courses</a>
+<a href="pricing.html">Pricing</a>
+</div>
+
+
+<div>
+<h4>Company</h4>
+<a href="about.html">About Us</a>
+<a href="#">Careers</a>
+</div>
+
+
+</div>
+
+
+<p class="copyright">
+© 2024 EduGrowth Academy. All rights reserved.
+</p>
+
+
+</footer>
+
+
+<!-- Enrollment Modal -->
+
+
+<div id="courseModal" class="modal">
+
+
+<div class="modal-content">
+
+
+<span class="close-course">&times;</span>
+
+
+<h2 id="courseTitle">
+Course Enrollment
+</h2>
+
+
+<form id="courseForm">
+
+
+<input
+type="text"
+placeholder="Full Name"
+required>
+
+
+<input
+type="email"
+placeholder="Email Address"
+required>
+
+
+<input
+type="tel"
+placeholder="Phone Number"
+required>
+
+
+<button type="submit" class="btn">
+Enroll
+</button>
+
+
+</form>
+
+
+</div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
